@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!-- saved from url=(0034)https://cw0.scrimba.com/index.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style scrimba-base-css="">/*§SR§BASECSS§START*//* http://meyerweb.com/eric/tools/css/reset/
+<!-- saved from url=(0036)https://scrimba.com/__sw__blank.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base data-scrimba-internal="true" href="https://cw0.scrimba.com/">--><base href="."><style scrimba-base-css="">/*§SR§BASECSS§START*//* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -73,8 +73,8 @@ a {
 
 }
 
-a:active,
-a:hover {
+a:is(:active,.__active)/**/,
+a:is(:hover,.__hover)/**/ {
   outline-width: 0;
 }
 
@@ -290,15 +290,15 @@ template {
 [hidden] {
   display: none;
 }
-input:focus,
+input:is(:focus,.__focus)/**/,
 input.__focus {
   outline: 4px solid rgba(117, 170, 255, 0.5);
 }
-button:focus,
+button:is(:focus,.__focus)/**/,
 button.__focus {
   outline: 4px solid rgba(117, 170, 255, 0.5);
 }
-button:active,
+button:is(:active,.__active)/**/,
 button.__active {
   -ms-transform: scale(0.97);
       transform: scale(0.97);
@@ -314,7 +314,7 @@ noscript {
   display: none !important;
 }/*§SR§END*/</style><script>SCRIMBA_REQUEST = {"isHistoryNavigation":false,"method":"GET","state":{"history":[0,["/index.html"]],"tracker":"https://scrimba.com/__sw__tracker.js"}}</script><script src="./__sw__tracker.js"></script><script src="./_env_.js"></script>
     <!--$head$-->
-        <style rel="stylesheet" href="styles.css" scrimba-live="/styles.css">body {
+        <style rel="stylesheet" href="styles.css" scrimba-live="/styles.css">/*SCRIMBA:IGNORE:START*/body {
     margin: 20px;
     /*
     Challenge:
@@ -350,7 +350,7 @@ noscript {
     }
     
   
-.card:hover {
+.card:is(:hover,.__hover)/**/ {
     background-color: #e7efc5;
     transition:#d64933;
 }
@@ -381,11 +381,11 @@ Final challenge:
 Download the code to your local computer and place it
 in a folder called "business-card"
 */
-</style>
+/*SCRIMBA:IGNORE:END*/</style>
     </head>
     <body><!--$body$-->
         <div class="card" "hover"="">
-            <img class="avatar" src="./Lisa.jpeg">
+            <img class="avatar" src="./A25mE78kyjRYPW3rzYeMHXYBdzCJf6dK6XaSPrJHn2Z2ujfHPiEyfqb3rNsvDKwK22aKuTo8gAEfTDooGtFjvcB59G4AiYGJfQiyHR1ucm5XL6w8MWCii4Cheq6T.jpeg">
                 <div class="border" <="" div="">
                 <h2>Lisa Gills</h2>
                 <p>Consultant</p>
